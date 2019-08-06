@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/dealimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/dealtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dealimg"
+            android:paddingLeft="16dp"
+            android:text="dfdfjdfjjhfjdfj"/>
+
+        <TextView
+            android:id="@+id/dealdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dealimg"
+            android:layout_below="@id/dealtitle"
+            android:paddingLeft="16dp"
+            android:text="fghrfhgrjhf"/>
+        <TextView
+            android:id="@+id/dealprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dealimg"
+            android:layout_below="@id/dealdesc"
+            android:paddingLeft="16dp"
+            android:text="sdjfjsdjfsdjfdsjfjhsdjhfsdjfjsdfj"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
